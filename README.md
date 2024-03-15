@@ -10,12 +10,3 @@ There's a brief writeup about what's going on here: https://... .
 ./mvnw compile quarkus:dev
 ```
 
-> **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
-
-## Packaging and running the application
-
-The application can be packaged using:
-```shell script
-./mvnw package
-```
-
