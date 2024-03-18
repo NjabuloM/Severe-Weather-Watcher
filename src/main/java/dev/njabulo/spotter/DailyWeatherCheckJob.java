@@ -35,7 +35,7 @@ public class DailyWeatherCheckJob {
     @Inject
     NotificationSender reporter;
 
-    @Scheduled(every = "20s", identity = "weather-forecast-job")
+    @Scheduled(every = "5h", identity = "weather-forecast-job")
     public void executeForecastCheckTask() {
         // Weather lookup
         String url = makeForecastUrl(locationId, apiKey);
